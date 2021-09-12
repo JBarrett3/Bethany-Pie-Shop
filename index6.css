@@ -1,0 +1,9 @@
+h1 {
+    display: inline;
+    color:burlywood;
+    border: solid 3px green;
+}
+p {
+    color:crimson;
+    border: dotted 5px yellow;
+}
