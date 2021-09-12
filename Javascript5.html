@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript5</title>
+    <link rel="stylesheet" href="Javascript5.css">
+</head>
+<body>
+    <section id="Author1" class="Authors">
+        <h1>Author1's Name</h1>
+        <ul>
+            <li><a href="https://www.amazon.com/" class="tag">Amazon</a></li>
+            <li><a href="https://www.cnn.com/" class="tag">CNN</a></li>
+        </ul>
+    </section>
+    <section id="Author2" class="Authors">
+        <h1>Author2's Name</h1>
+        <ul>
+            <li><a href="https://www.Apple.com" class="tag">Apple</a></li>
+            <li><a href="https://www.Fox.com" class="tag">Fox</a></li>
+        </ul>
+    </section>
+    <script>
+        let links = document.querySelectorAll(".tag");
+        links.forEach(function(link) {
+            link.setAttribute("target", "_blank")
+        })
+    </script>
+</body>
+</html>
